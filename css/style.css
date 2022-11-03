@@ -1,0 +1,95 @@
+main{
+    margin: 0 ;
+    padding: 0 ;
+    text-align:center;
+    font-size:  32px;
+}
+
+
+img {
+    width: 60px;
+    
+}
+
+
+
+
+header{ 
+    background-color:#ccc;
+    border-bottom :1px solid#3333;
+    text-align:center;
+}
+h1{
+    text-align:center;
+}
+main{
+    border-bottom : 1px #ccc ;
+}
+
+footer{
+    background-color: #fff ;
+    border-bottom : 1px solid#ccc ;
+    text-align:center;
+}
+
+ul {
+    padding:  0 ;
+    border-top :  1px solid#000000 ;
+    display:table;  /* 定義 */
+    table-layout:fixed;
+    width: 100%;
+}
+
+li{
+    list-style-type: style type none;
+    border:  1px solid #666;
+    background-color:  #FFF;
+    display:table-cell;  /* 定義 */
+    cursor:pointer;
+}
+re-hover{
+    background-color:#0066CC ;
+    color:#FFF;
+}
+
+p {
+    font-size:200%;
+    text-align:after;
+    border-bottom :1px  solid #fff;
+    height: 200Px;
+}
+
+.aa{
+display:block;
+width: 280px;
+margin: auto;
+padding: 21px 0;
+ background-color: #ffd61a;
+ color: #000000;
+ font-size: 1.8rem;
+ text-align: center;
+ box-sizing: border-box;
+ border-top :  1px solid#000000 ;
+ border-left :  1px solid#000000 ;
+ border-right :  1px solid#000000 ;
+ border-bottom :  1px solid#000000 ;
+}
+.bb{
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgb(0 0 0 / 30%);
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    display: none;
+  }
+
+  .button{
+    display:block;
+    width: 150px;
+    font-size: 1.8rem;
+
+  }
+  
