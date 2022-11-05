@@ -91,7 +91,10 @@ $(".aa").on("click", function () {
      document.designMode = "on";
    });
 
-
+   function  buttonClick(){
+     // location.hrefにURLを代入することで画面遷移する
+     location.href = "https://gsacademy.jp/?utm_source=google&utm_medium=cpc&utm_campaign=GoogleAd_TYO_SRCH_AT-Brand_2021-03-07&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiQ-JOP-4zbDCUClnC2sjLXbK--dOdMQb58nTGQWizIF2WhXAETMYRoCoBwQAvD_BwE";
+   }
 });
 
 
@@ -242,7 +245,10 @@ $(".aa").on("click", function () {
      document.designMode = "on";
    });
 
-
+   function  buttonClick(){
+     // location.hrefにURLを代入することで画面遷移する
+     location.href = "https://gsacademy.jp/?utm_source=google&utm_medium=cpc&utm_campaign=GoogleAd_TYO_SRCH_AT-Brand_2021-03-07&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiQ-JOP-4zbDCUClnC2sjLXbK--dOdMQb58nTGQWizIF2WhXAETMYRoCoBwQAvD_BwE";
+   }
 });
 
 
@@ -251,39 +257,39 @@ $(".aa").on("click", function () {
  
 // console.log("テスト");
 
- $(".aa").on("click", function () {
-     //
-     // alert(1);
-     // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
-     // 下は削除しない
+//  $(".aa").on("click", function () {
+//      //
+//      // alert(1);
+//      // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
+//      // 下は削除しない
    
-     // クリックされたら class="bb"を表示する
-     // そのためには注意！必ず最初に「非表示」にする必要があります🤗
-     // cssの場合はdisplay:none;をつける
-     $(".bb").fadeIn(2000);
-     document.designMode = "on";
-   });
+//      // クリックされたら class="bb"を表示する
+//      // そのためには注意！必ず最初に「非表示」にする必要があります🤗
+//      // cssの場合はdisplay:none;をつける
+//      $(".bb").fadeIn(2000);
+//      document.designMode = "on";
+//    });
 
-   console.log("aaテスト")
+//    console.log("aaテスト")
 
 
-   $(".aa").on("click", function () {
+//    $(".aa").on("click", function () {
      
-     //
-     // alert(1);
-     // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
-     // 下は削除しない
+//      //
+//      // alert(1);
+//      // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
+//      // 下は削除しない
    
-     // クリックされたら class="bb"を表示する
-     // そのためには注意！必ず最初に「非表示」にする必要があります🤗
-     // cssの場合はdisplay:none;をつける
-     $(".bb").fadeOut(100000);
-     document.designMode = "on";
-   });
+//      // クリックされたら class="bb"を表示する
+//      // そのためには注意！必ず最初に「非表示」にする必要があります🤗
+//      // cssの場合はdisplay:none;をつける
+//      $(".bb").fadeOut(100000);
+//      document.designMode = "on";
+//    });
 
 
-   function buttonClick(){
-     // location.hrefにURLを代入することで画面遷移する
-     location.href = "https://gsacademy.jp/?utm_source=google&utm_medium=cpc&utm_campaign=GoogleAd_TYO_SRCH_AT-Brand_2021-03-07&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiQ-JOP-4zbDCUClnC2sjLXbK--dOdMQb58nTGQWizIF2WhXAETMYRoCoBwQAvD_BwE";
-   }
+//    function buttonClick(){
+//      // location.hrefにURLを代入することで画面遷移する
+//      location.href = "https://gsacademy.jp/?utm_source=google&utm_medium=cpc&utm_campaign=GoogleAd_TYO_SRCH_AT-Brand_2021-03-07&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiQ-JOP-4zbDCUClnC2sjLXbK--dOdMQb58nTGQWizIF2WhXAETMYRoCoBwQAvD_BwE";
+//    }
    
