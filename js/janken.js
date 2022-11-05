@@ -83,20 +83,54 @@ if(r==1){
      view1="<img src='img/par.jpg'>";
      // view2="勝ち";
 view2=`
-<button type="aa">勝ったら押せます</button>
+<h2 class="aa">勝ったら押せます</h2> 
 <div class="bb">
  <p>あなたが欲しいのは</p>
 <button type="button" id="btn"class="button">金の斧</button>
 <button type="button" id="cho"class="button">銀の斧</button>
-<button type="button" id="par"class="button">銀の斧</button>
-</div>
+<button type="button" id="par"class="button">〇〇の斧</button>
+</div> 
 `;
 }
     
 //   3.表示処理
 $("#pc_hands").html(view1);
 $("#judgement").html(view2);
+$(".aa").on("click", function () {
+     //
+     // alert(1);
+     // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
+     // 下は削除しない
+   
+     // クリックされたら class="bb"を表示する
+     // そのためには注意！必ず最初に「非表示」にする必要があります🤗
+     // cssの場合はdisplay:none;をつける
+     $(".bb").fadeIn(2000);
+     document.designMode = "on";
+   });
 
+
+
+
+   $(".aa").on("click", function () {
+     
+     //
+     // alert(1);
+     // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
+     // 下は削除しない
+   
+     // クリックされたら class="bb"を表示する
+     // そのためには注意！必ず最初に「非表示」にする必要があります🤗
+     // cssの場合はdisplay:none;をつける
+     $(".bb").fadeOut(100000);
+     document.designMode = "on";
+   });
+
+   function  buttonClick(){
+     // location.hrefにURLを代入することで画面遷移する
+     location.href = "https://gsacademy.jp/?utm_source=google&utm_medium=cpc&utm_campaign=GoogleAd_TYO_SRCH_AT-Brand_2021-03-07&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiQ-JOP-4zbDCUClnC2sjLXbK--dOdMQb58nTGQWizIF2WhXAETMYRoCoBwQAvD_BwE";
+   }
+   
 });
 
 
@@ -140,9 +174,11 @@ $("#judgement").html(view2);
 
 
  
+// console.log("テスト");
+
  $(".aa").on("click", function () {
      //
-     // alert(1);
+     alert(1);
      // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
      // 下は削除しない
    
@@ -153,9 +189,11 @@ $("#judgement").html(view2);
      document.designMode = "on";
    });
 
+   console.log("aaテスト")
 
 
    $(".aa").on("click", function () {
+     
      //
      // alert(1);
      // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
@@ -174,5 +212,3 @@ $("#judgement").html(view2);
      location.href = "https://gsacademy.jp/?utm_source=google&utm_medium=cpc&utm_campaign=GoogleAd_TYO_SRCH_AT-Brand_2021-03-07&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiQ-JOP-4zbDCUClnC2sjLXbK--dOdMQb58nTGQWizIF2WhXAETMYRoCoBwQAvD_BwE";
    }
    
-   let button = document.getElementById('btn');
-   button.onclick = buttonClick;
