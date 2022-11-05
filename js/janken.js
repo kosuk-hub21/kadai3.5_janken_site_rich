@@ -41,7 +41,15 @@ if(r==1){
 }
 else  if(r==2){
      view1="<img src='img/cho.jpg'>";
-     view2="勝ち";
+     view2=`
+     <h2 class="aa">勝ったら押せます</h2> 
+     <div class="bb">
+      <p>あなたが欲しいのは</p>
+     <button type="button" id="btn"class="button">金の斧</button>
+     <button type="button" id="cho"class="button">銀の斧</button>
+     <button type="button" id="par"class="button">〇〇の斧</button>
+     </div> 
+     `;
 
 }
 else  if(r==3){
@@ -52,6 +60,37 @@ else  if(r==3){
 //   3.表示処理
 $("#pc_hands").html(view1);
 $("#judgement").html(view2);
+
+$(".aa").on("click", function () {
+     //
+     // alert(1);
+     // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
+     // 下は削除しない
+   
+     // クリックされたら class="bb"を表示する
+     // そのためには注意！必ず最初に「非表示」にする必要があります🤗
+     // cssの場合はdisplay:none;をつける
+     $(".bb").fadeIn(2000);
+     document.designMode = "on";
+   });
+
+   console.log("aaテスト")
+
+
+   $(".aa").on("click", function () {
+     
+     //
+     // alert(1);
+     // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
+     // 下は削除しない
+   
+     // クリックされたら class="bb"を表示する
+     // そのためには注意！必ず最初に「非表示」にする必要があります🤗
+     // cssの場合はdisplay:none;をつける
+     $(".bb").fadeOut(100000);
+     document.designMode = "on";
+   });
+
 
 });
 
@@ -101,7 +140,6 @@ $(".aa").on("click", function () {
      // alert(1);
      // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
      // 下は削除しない
-   
      // クリックされたら class="bb"を表示する
      // そのためには注意！必ず最初に「非表示」にする必要があります🤗
      // cssの場合はdisplay:none;をつける
@@ -114,11 +152,9 @@ $(".aa").on("click", function () {
 
    $(".aa").on("click", function () {
      
-     //
      // alert(1);
      // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
      // 下は削除しない
-   
      // クリックされたら class="bb"を表示する
      // そのためには注意！必ず最初に「非表示」にする必要があります🤗
      // cssの場合はdisplay:none;をつける
@@ -154,7 +190,15 @@ let view1="";
 let view2="";
 if(r==1){
      view1="<img src='img/gu.jpg'>";
-     view2="勝ち";
+     view2=`
+     <h2 class="aa">勝ったら押せます</h2> 
+     <div class="bb">
+      <p>あなたが欲しいのは</p>
+     <button type="button" id="btn"class="button">金の斧</button>
+     <button type="button" id="cho"class="button">銀の斧</button>
+     <button type="button" id="par"class="button">〇〇の斧</button>
+     </div> 
+     `;
 }else  if(r==2){
      view1="<img src='img/cho.jpg'>";
      view2="負け";
@@ -168,6 +212,37 @@ if(r==1){
 $("#pc_hands").html(view1);
 $("#judgement").html(view2);
 
+$(".aa").on("click", function () {
+     //
+     // alert(1);
+     // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
+     // 下は削除しない
+   
+     // クリックされたら class="bb"を表示する
+     // そのためには注意！必ず最初に「非表示」にする必要があります🤗
+     // cssの場合はdisplay:none;をつける
+     $(".bb").fadeIn(2000);
+     document.designMode = "on";
+   });
+
+   console.log("aaテスト")
+
+
+   $(".aa").on("click", function () {
+     
+     //
+     // alert(1);
+     // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
+     // 下は削除しない
+   
+     // クリックされたら class="bb"を表示する
+     // そのためには注意！必ず最初に「非表示」にする必要があります🤗
+     // cssの場合はdisplay:none;をつける
+     $(".bb").fadeOut(100000);
+     document.designMode = "on";
+   });
+
+
 });
 
 
@@ -178,7 +253,7 @@ $("#judgement").html(view2);
 
  $(".aa").on("click", function () {
      //
-     alert(1);
+     // alert(1);
      // $(".aa").fadeOut(2000); // 1000は1秒, 2000は2秒になります🤗
      // 下は削除しない
    
