@@ -81,7 +81,16 @@ if(r==1){
 
 }else  if(r==3){
      view1="<img src='img/par.jpg'>";
-     view2="勝ち";
+     // view2="勝ち";
+view2=`
+<button type="aa">勝ったら押せます</button>
+<div class="bb">
+ <p>あなたが欲しいのは</p>
+<button type="button" id="btn"class="button">金の斧</button>
+<button type="button" id="cho"class="button">銀の斧</button>
+<button type="button" id="par"class="button">銀の斧</button>
+</div>
+`;
 }
     
 //   3.表示処理
@@ -130,20 +139,6 @@ $("#judgement").html(view2);
 
 
 
-
-
-
-// $(function(){
-//      $('.js-modal-open').on('click',function(){
-//          $('.js-modal').fadeIn();
-//          return false;
-//      });
-//      $('.js-modal-close').on('click',function(){
-//          $('.js-modal').fadeOut();
-//          return false;
-//      });
-//  });
-
  
  $(".aa").on("click", function () {
      //
@@ -156,8 +151,6 @@ $("#judgement").html(view2);
      // cssの場合はdisplay:none;をつける
      $(".bb").fadeIn(2000);
      document.designMode = "on";
-     // つけたり、けしたりしたいならこれ使ってね！って
-   // jqueryの公式サイトに書いてるおまじないが[fadeToggle]
    });
 
 
@@ -173,16 +166,13 @@ $("#judgement").html(view2);
      // cssの場合はdisplay:none;をつける
      $(".bb").fadeOut(100000);
      document.designMode = "on";
- 
-     // つけたり、けしたりしたいならこれ使ってね！って
-   // jqueryの公式サイトに書いてるおまじないが[fadeToggle]
    });
 
-   function butotnClick(){
 
+   function buttonClick(){
      // location.hrefにURLを代入することで画面遷移する
      location.href = "https://gsacademy.jp/?utm_source=google&utm_medium=cpc&utm_campaign=GoogleAd_TYO_SRCH_AT-Brand_2021-03-07&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiQ-JOP-4zbDCUClnC2sjLXbK--dOdMQb58nTGQWizIF2WhXAETMYRoCoBwQAvD_BwE";
    }
    
    let button = document.getElementById('btn');
-   button.onclick = butotnClick;
+   button.onclick = buttonClick;
